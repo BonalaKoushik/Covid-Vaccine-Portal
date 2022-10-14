@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Covid Vaccine Portal</title>
+        <link rel="stylesheet" href="stylesheet.css">
+		<style>
+		body{
+			background-image:url("covid.jpg");
+			background-repeat:no-repeat;
+			background-size:100% 100%;
+		}
+		</style>
+    </head>
+    <body >
+        
+            <center>
+            <div id="headerSection">
+            <h1>Covid Vaccine Portal</h1>  
+            </div>
+            <hr>
+
+            <div id="loginSection">
+                <h2>Login</h2>
+                <form action="api/login.php" method="POST">
+                    <input type="Usernsme" name="user" placeholder="enter username/email" required><br><br>
+                    <input type="password" name="pass" placeholder="Enter password" required><br><br>             
+                    <button id="loginbtn" type="submit" name="loginbtn">Login</button><br><br>
+                    New user? <a href="routes/register.php">Register here</a>
+                </form>
+            </div>
+
+            </center> 
+			
+
+    </body>
+</html>
